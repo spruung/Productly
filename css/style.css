@@ -511,7 +511,7 @@ button {
 }
 
 .footer__form-btn {
-	border: transparent;
+	border: none;
 	background-color: #FF9900;
 	color: #fff;
 	padding: 8px 15px 7px 15px;
