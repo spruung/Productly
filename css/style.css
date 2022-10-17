@@ -246,68 +246,68 @@ button {
 }
 
 
-.team__inner{
+.team__inner {
 	background-image: url('../images/team-bg.svg');
 	background-repeat: no-repeat;
-	background-position:top center;
+	background-position: top center;
 	background-size: cover;
 }
 
-.team__items{
+.team__items {
 	padding: 230px 0 380px;
 	position: relative;
 }
 
-.team__item{
+.team__item {
 	position: absolute;
 	width: 98px;
 	height: 98px;
 }
 
-.team__item--1{	
+.team__item--1 {
 	top: 157px;
 	right: 95px;
 }
 
-.team__item--2{
+.team__item--2 {
 	top: 223px;
 	left: 0;
 }
 
-.team__item--3{
+.team__item--3 {
 	bottom: 223px;
 	left: 0;
 }
 
-.team__item--4{
+.team__item--4 {
 	bottom: 123px;
 	left: 660px;
 }
 
-.team__item--5{
+.team__item--5 {
 	bottom: 235px;
 	right: 0;
 }
 
-.team__box{
+.team__box {
 	text-align: center;
 	max-width: 542px;
 	margin: 0 auto;
 }
 
-.team__title{
+.team__title {
 	margin-bottom: 22px;
 	font-size: 36px;
 	line-height: 54px;
 	font-weight: 700;
 }
 
-.team_text{
+.team_text {
 	color: #567592;
 	margin-bottom: 45px;
 }
 
-.team__btn{
+.team__btn {
 	background-color: #FF9900;
 	border: none;
 	border-radius: 4px;
@@ -315,7 +315,7 @@ button {
 	padding: 15px 31px 14px 30px;
 }
 
-.team__item-img{
+.team__item-img {
 	width: 98px;
 	height: 98px;
 	border-radius: 50%;
@@ -323,7 +323,7 @@ button {
 	object-fit: cover;
 }
 
-.team__item-text{
+.team__item-text {
 	position: absolute;
 	top: -30px;
 	right: 75px;
@@ -336,7 +336,7 @@ button {
 
 }
 
-.team__item-text.team__item-text--left{
+.team__item-text.team__item-text--left {
 	top: -40px;
 	right: auto;
 	left: 62px;
@@ -346,7 +346,7 @@ button {
 .team__item-text--right::after,
 .team__item-text--right::before,
 .team__item-text--left::before,
-.team__item-text--left::after{
+.team__item-text--left::after {
 	content: "";
 	position: absolute;
 	background-color: #fff;
@@ -354,7 +354,7 @@ button {
 }
 
 .team__item-text--right::after,
-.team__item-text--left::after{
+.team__item-text--left::after {
 	width: 17px;
 	height: 17px;
 	bottom: -7px;
@@ -362,47 +362,47 @@ button {
 }
 
 .team__item-text--right::before,
-.team__item-text--left::before{
+.team__item-text--left::before {
 	width: 9px;
 	height: 9px;
 	bottom: -16 px;
 	right: 9px;
 }
 
-.team__item-text--left::before{
+.team__item-text--left::before {
 	left: 9px;
 	right: auto;
 }
 
-.team__item-text--left::after{
+.team__item-text--left::after {
 	left: 30px;
 	right: auto;
 }
 
-.blog{
+.blog {
 	margin: 30px 0 120px;
 }
 
-.blog__title{
+.blog__title {
 	font-size: 34px;
 	line-height: 51px;
 	font-weight: 700;
 	margin-bottom: 9px;
 }
 
-.blog__text{
+.blog__text {
 	margin-bottom: 55px;
 }
 
-.slider{
+.slider {
 	margin: 0 -20px;
 }
 
-.slider__item{
+.slider__item {
 	padding: 0 20px;
 }
 
-.slider__item-img{
+.slider__item-img {
 	width: 348;
 	height: 185px;
 	object-fit: cover;
@@ -411,18 +411,18 @@ button {
 	margin-bottom: 25px;
 }
 
-.slider__item-info{
+.slider__item-info {
 	margin-bottom: 12px;
 	line-height: 28px;
 }
 
-.slider__item-author{
+.slider__item-author {
 	text-decoration: none;
 	font-weight: 700;
 	color: #544837;
 }
 
-.slider__item-title{
+.slider__item-title {
 	text-decoration: none;
 	font-size: 24px;
 	line-height: 24px;
@@ -433,17 +433,17 @@ button {
 
 }
 
-.slider__item-title:hover{
+.slider__item-title:hover {
 	color: #ff9900;
 }
 
-.slick-dots{
+.slick-dots {
 	list-style: none;
 	display: flex;
 	justify-content: center;
 }
 
-.slick-dots button{
+.slick-dots button {
 	width: 16px;
 	height: 16px;
 	border-radius: 50%;
@@ -454,7 +454,66 @@ button {
 	margin: 0 5px;
 }
 
-.slick-dots .slick-active button{
+.slick-dots .slick-active button {
 	background-color: #ff9900;
 }
 
+.footer__inner {
+	padding: 105px 0 100px;
+	border-top: 1px solid rgba(188, 208, 229, 0.496913);
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__menu {
+	width: 135px;
+}
+
+.footer__menu-title,
+.footer__form-text {
+	margin-bottom: 35px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #2F281E;
+}
+
+.footer__list {
+	list-style: none;
+}
+
+.footer__menu-link {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 35px;
+	font-weight: 400;
+	color: #544837;
+}
+
+.footer__form {
+	width: 330px;
+}
+
+.footer__form-input {
+	height: 48px;
+	width: 330px;
+	padding: 0 15px;
+	border: 1px solid #BCD0E5;
+	border-radius: 4px;
+	margin-bottom: 21px;
+	display: inline-block;
+}
+
+.footer__form-input::placeholder {
+	font-size: 16px;
+	line-height: 28px;
+	color: #BCD0E5;
+}
+
+.footer__form-btn {
+	border: transparent;
+	background-color: #FF9900;
+	color: #fff;
+	padding: 8px 15px 7px 15px;
+	border-radius: 4px;
+}
