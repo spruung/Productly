@@ -4,7 +4,7 @@ $(function(){
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		arrows: false,
-		dots: true	
+		dots: true
 	});
 
 	$('.menu__btn').on('click',function (){
